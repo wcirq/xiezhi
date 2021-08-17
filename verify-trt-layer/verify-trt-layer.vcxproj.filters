@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{773df4e8-8ee7-4245-8b2b-5754b76c5ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{14ee2360-6f0a-4db2-afb9-dd1a6ed35717}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kernel.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_test.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="trt_test.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda_test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="trt_test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
